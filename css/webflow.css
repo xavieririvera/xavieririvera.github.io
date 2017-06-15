@@ -1716,3 +1716,30 @@ textarea.w-select {
 #SR{background-image: url("../images/Screen-Shot-2017-05-16-at-12.08.47-AM.png")} /*done*/
 #UNSC{background-image: url("../images/Screen-Shot-2017-05-16-at-12.18.32-AM.png")} /*done*/
 #USS{background-image: url("../images/Screen-Shot-2017-05-16-at-12.03.14-AM.png")} /*done*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 600px;
+    display: block;
+    margin: 20px 13px;
+    top:0;
+    text-align: center;
+}
+
+.cardszz{
+  width:600px;
+  margin: 0 auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
