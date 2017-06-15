@@ -1670,3 +1670,49 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("https://unsplash.it/1000/200");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1{
+  padding-top: 40px;
+}
+
+.parallax button{
+  height: 40px;
+  width: 120px;
+  background-color: #75020a;
+}
+
+.button-committe:hover {
+  animation-duration: 500ms;
+  background-color:white;
+  color: #75020a;
+}
+
+#a1930 {background-image: url("../images/Screen-Shot-2017-05-15-at-11.52.07-PM-p-1080.png")} /*done*/
+#a1899{background-image: url("../images/Screen-Shot-2017-05-15-at-11.46.52-PM-p-1080.png")} /*done*/
+#a2007{background-image: url("../images/Screen-Shot-2017-05-15-at-11.45.38-PM.png")} /*done*/
+#HK{background-image: url("../images/Screen-Shot-2017-05-15-at-11.40.11-PM.png")} /*done*/
+#VII{background-image: url("../images/Screen-Shot-2017-05-20-at-3.49.14-PM.png")} /*done*/
+#AD-H{background-image: url("../images/Screen-Shot-2017-05-24-at-9.44.30-PM.png")} /*done*/
+#YL{background-image: url("../images/Screen-Shot-2017-05-20-at-2.09.01-AM.png")} /*done*/
+#Cairo{background-image: url("../images/Screen-Shot-2017-05-15-at-11.18.42-PM.png")} /*done*/
+#Bandung{background-image: url("../images/Screen-Shot-2017-05-15-at-10.51.06-PM.png")} /*done*/
+#Romania{background-image: url("../images/Screen-Shot-2017-05-15-at-10.48.24-PM.png")} /*done*/
+#a1540{background-image: url("../images/Screen-Shot-2017-05-16-at-12.04.31-AM.png")} /*done*/
+#Commonwealth{background-image: url("../images/Screen-Shot-2017-05-16-at-12.15.34-AM.png")} /*done*/
+#SR{background-image: url("../images/Screen-Shot-2017-05-16-at-12.08.47-AM.png")} /*done*/
+#UNSC{background-image: url("../images/Screen-Shot-2017-05-16-at-12.18.32-AM.png")} /*done*/
+#USS{background-image: url("../images/Screen-Shot-2017-05-16-at-12.03.14-AM.png")} /*done*/
