@@ -69,9 +69,6 @@ html.w-mod-touch * {
 .w-clearfix:after {
   clear: both;
 }
-.w-preserve-3d {
-  transform-style: preserve-3d;
-}
 .w-hidden {
   display: none;
 }
@@ -228,9 +225,6 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-}
-a:focus {
-  outline: 0;
 }
 blockquote {
   margin: 0 0 10px 0;
@@ -813,6 +807,10 @@ textarea.w-select {
   min-height: 100%;
   z-index: -100;
 }
+.w-background-video > video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
 .w-slider {
   position: relative;
   height: 300px;
@@ -963,9 +961,6 @@ textarea.w-select {
   display: inline-block;
   cursor: pointer;
   padding-right: 40px;
-}
-.w-dropdown-toggle:focus {
-  outline: 0;
 }
 .w-icon-dropdown-toggle {
   position: absolute;
@@ -1219,6 +1214,10 @@ textarea.w-select {
  * 1. All IE versions add extra space at the bottom without this.
  */
 .w-lightbox-strip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 0 1vh;
   line-height: 0;
   /* 1 */
@@ -1358,6 +1357,10 @@ textarea.w-select {
 .w-richtext:after {
   clear: both;
 }
+.w-richtext[contenteditable="true"]:before,
+.w-richtext[contenteditable="true"]:after {
+  white-space: initial;
+}
 .w-richtext ol,
 .w-richtext ul {
   overflow: hidden;
@@ -1385,8 +1388,7 @@ textarea.w-select {
   position: relative;
   max-width: 60%;
 }
-.w-richtext figure > div:before,
-.w-richtext figure img {
+.w-richtext figure > div:before {
   cursor: default!important;
 }
 .w-richtext figure img {
@@ -1669,86 +1671,4 @@ textarea.w-select {
 }
 .w-condition-invisible {
   display: none !important;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("https://unsplash.it/1000/200");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax h1{
-  padding-top: 40px;
-}
-
-.parallax button{
-  height: 40px;
-  width: 120px;
-  background-color: #75020a;
-}
-
-.button-committe:hover {
-  animation-duration: 500ms;
-  background-color:white;
-  color: #75020a;
-}
-
-#a1930 {background-image: url("../images/Screen-Shot-2017-05-15-at-11.52.07-PM-p-1080.png")} /*done*/
-#a1899{background-image: url("../images/Screen-Shot-2017-05-15-at-11.46.52-PM-p-1080.png")} /*done*/
-#a2007{background-image: url("../images/Screen-Shot-2017-05-15-at-11.45.38-PM.png")} /*done*/
-#HK{background-image: url("../images/Screen-Shot-2017-05-15-at-11.40.11-PM.png")} /*done*/
-#VII{background-image: url("../images/Screen-Shot-2017-05-20-at-3.49.14-PM.png")} /*done*/
-#AD-H{background-image: url("../images/Screen-Shot-2017-05-24-at-9.44.30-PM.png")} /*done*/
-#YL{background-image: url("../images/Screen-Shot-2017-05-20-at-2.09.01-AM.png")} /*done*/
-#Cairo{background-image: url("../images/Screen-Shot-2017-05-15-at-11.18.42-PM.png")} /*done*/
-#Bandung{background-image: url("../images/Screen-Shot-2017-05-15-at-10.51.06-PM.png")} /*done*/
-#Romania{background-image: url("../images/Screen-Shot-2017-05-15-at-10.48.24-PM.png")} /*done*/
-#a1540{background-image: url("../images/Screen-Shot-2017-05-16-at-12.04.31-AM.png")} /*done*/
-#Commonwealth{background-image: url("../images/Screen-Shot-2017-05-16-at-12.15.34-AM.png")} /*done*/
-#SR{background-image: url("../images/Screen-Shot-2017-05-16-at-12.08.47-AM.png")} /*done*/
-#UNSC{background-image: url("../images/Screen-Shot-2017-05-16-at-12.18.32-AM.png")} /*done*/
-#USS{background-image: url("../images/Screen-Shot-2017-05-16-at-12.03.14-AM.png")} /*done*/
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 600px;
-    display: block;
-    margin: 20px 13px;
-    top:0;
-    text-align: center;
-    padding-top: 12px;
-    border-style: solid;
-    border-width:2px;
-    border-color:#75020a;
-}
-
-.card img{
-  border-style: solid;
-  border-width: 2px;
-  border-color: #75020a;
-}
-
-.cardszz{
-  width:600px;
-  margin: 0 auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
 }
