@@ -104,9 +104,9 @@
   overflow: visible;
   height: 100vh;
   border: 0px solid #000;
-  background-color: transparent;
-  background-image: url('../images/hero.jpg');
-  background-position: 0px 0px;
+  background-color: #000;
+  background-image: url('../images/FullSizeRender-copy.jpg');
+  background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -183,9 +183,22 @@
   border-color: #fff;
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #000;
+  font-size: 26px;
+  line-height: 30px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.links.menulinks {
+  color: #a5a5a5;
+  font-weight: 400;
+}
+
+.links.morelink.back {
+  margin-top: 0%;
+  font-size: 20px;
 }
 
 .bolds {
@@ -352,7 +365,7 @@
   margin-top: 84px;
   margin-right: 10%;
   margin-left: 10%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 300;
@@ -459,7 +472,7 @@
   overflow: visible;
   width: 100%;
   height: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 10%;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -524,7 +537,7 @@
 }
 
 .xavier {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 45px;
   line-height: 40px;
   font-weight: 600;
@@ -536,7 +549,7 @@
   top: 0px;
   right: 0px;
   overflow: visible;
-  margin-top: 10%;
+  margin-top: 0%;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-top: 10%;
@@ -550,13 +563,26 @@
   padding-bottom: 0%;
 }
 
+.section.menu {
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.section.section2 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
 .aboutme {
   margin-top: 7%;
   margin-left: 0%;
-  padding-right: 0%;
+  padding-right: 5%;
   padding-left: 0%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 400;
   text-align: right;
@@ -571,10 +597,10 @@
 }
 
 .aboutmetitle.aboutmetitle2 {
-  padding: 0%;
-  font-family: 'Open Sans', sans-serif;
+  padding: 0% 5% 0% 6%;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 33px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
 }
 
@@ -619,27 +645,27 @@
 }
 
 .text-span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   line-height: 44px;
   font-weight: 400;
 }
 
 .first {
-  margin-bottom: 30%;
+  margin-bottom: 12%;
 }
 
 .container {
   position: static;
   overflow: visible;
-  padding: 30px 0px;
+  padding: 0px;
   border-radius: 30px;
   background-color: transparent;
   text-align: right;
 }
 
 .div-block {
-  margin-left: 0%;
+  margin-left: 10%;
   padding: 30px;
   border-radius: 30px;
   background-color: #fff;
@@ -665,7 +691,7 @@
   position: static;
   margin-top: -70px;
   margin-bottom: 0px;
-  margin-left: 406px;
+  margin-left: 365px;
 }
 
 .items {
@@ -708,6 +734,14 @@
   box-shadow: 0 10px 25px 3px rgba(184, 199, 211, .2);
 }
 
+.items._0 {
+  padding-top: 43%;
+  background-image: url('../images/HanoverSite.png');
+  background-position: 0px 0px;
+  background-size: 460px;
+  background-attachment: scroll;
+}
+
 .row {
   margin-top: 7%;
   margin-right: 0px;
@@ -715,6 +749,7 @@
 }
 
 .row-2 {
+  margin-top: 7%;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -732,19 +767,27 @@
 }
 
 .casetitle {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.casetitle.featured {
+  margin-top: 5%;
 }
 
 .casecaption {
-  margin-top: 5%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  margin-top: 3%;
+  padding-right: 10%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .morelink {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 0px;
   padding-top: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -753,8 +796,41 @@
   text-decoration: none;
 }
 
+.morelink.links {
+  margin-top: 3%;
+  background-color: transparent;
+  box-shadow: inset 0 -7px 0 0 #fc0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.socialbutton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 385px;
+  padding: 0px 1px 2px 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: transparent;
+  background-image: url('../images/if_-15_3057688.svg');
+  background-position: 0px 0px;
+  background-size: 25px;
+  background-attachment: scroll;
+  text-align: left;
+}
+
 .backbutton {
-  margin-top: 0%;
+  margin-top: -1%;
   margin-bottom: 25%;
   font-family: 'Open Sans', sans-serif;
   color: #979797;
@@ -775,8 +851,11 @@
 }
 
 .text-block-3 {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #000;
-  font-size: 26px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
 }
 
 .column-3 {
@@ -785,7 +864,7 @@
 
 .casepage {
   position: static;
-  padding-top: 10%;
+  padding-top: 0%;
   padding-right: 5%;
   padding-left: 5%;
   font-family: 'Open Sans', sans-serif;
@@ -794,9 +873,10 @@
 .casesubtitle {
   margin-top: 1%;
   font-family: 'Open Sans', sans-serif;
-  color: #252525;
-  font-size: 17px;
-  font-weight: 400;
+  color: #fc0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .casesubtitle.aboutsubtitle {
@@ -807,13 +887,15 @@
   margin-top: 2%;
   font-family: 'Open Sans', sans-serif;
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   font-weight: 400;
 }
 
 .casetext.top {
   margin-top: 6%;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .casetext.top.abouttext {
@@ -821,20 +903,27 @@
 }
 
 .caserole {
-  margin-top: 7%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   font-family: 'Open Sans', sans-serif;
   color: #000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
+}
+
+.caserole._2nd {
+  margin-top: 7%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .caserolesubtitle {
   margin-top: 0%;
   font-family: 'Open Sans', sans-serif;
   color: #292929;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
 }
 
@@ -842,9 +931,10 @@
   margin-top: 6%;
   margin-bottom: 0%;
   padding-bottom: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #9b9b9b;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .casetextbold.aboutlink {
@@ -854,9 +944,10 @@
 .casetestsubtitle {
   margin-top: 10%;
   margin-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #000;
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .link {
@@ -865,7 +956,7 @@
 }
 
 .caseimages {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .link-2 {
@@ -900,9 +991,169 @@
   text-align: left;
 }
 
+.menu-links {
+  margin-right: 8%;
+  margin-left: 8%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.text-block-4 {
+  margin-right: 8%;
+  margin-left: 8%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #e9e9e9;
+  font-family: 'Open Sans', sans-serif;
+  color: #9aa0a7;
+  font-size: 20px;
+}
+
+.link-3 {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-1 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  overflow: scroll;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f0f0f0;
+}
+
+.nav-bar-wrap {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brand-4 {
+  height: 100%;
+}
+
+.logo-text {
+  margin-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1a1a1a;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 900;
+}
+
+.nav-menu-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-link-3 {
+  font-family: Roboto, sans-serif;
+  color: #4f5e78;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-link-3.hvr-pop {
+  color: #6b6b6b;
+  font-weight: 500;
+}
+
+.nav-link-3.hvr-pop.w--current {
+  font-family: Roboto, sans-serif;
+  color: #6b6b6b;
+}
+
+.nav-btn {
+  margin-left: 0px;
+  border-style: none;
+  border-color: #b4b4b4;
+  border-radius: 0px;
+  background-color: hsla(0, 0%, 94%, .94);
+  font-family: Roboto, sans-serif;
+  color: #4b4444;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.nav-btn-2 {
+  margin-left: 25px;
+  border-radius: 4px;
+  background-color: #5748c5;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.container-2 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 0%;
+  padding-bottom: 10%;
+}
+
+.casebody {
+  margin-top: 10%;
+}
+
+.casemedia {
+  margin-top: 5%;
+}
+
+.text-block-5 {
+  margin-top: 5%;
+  font-family: Roboto, sans-serif;
+  color: #6d6d6d;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+html.w-mod-js *[data-ix="display-none"] {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="display"] {
+  display: block;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
 @media (max-width: 991px) {
+  .section.menu {
+    margin-top: 55%;
+  }
+  .first {
+    margin-bottom: 40%;
+  }
   .image-2 {
     margin-left: 300px;
+  }
+  .items._1 {
+    background-size: cover;
+  }
+  .items._0 {
+    background-size: cover;
+  }
+  .socialbutton {
+    margin-left: 279px;
+  }
+  .nav-menu-2 {
+    background-color: #fcfcfc;
   }
 }
 
@@ -926,6 +1177,7 @@
     text-align: left;
   }
   .aboutmetitle.aboutmetitle2 {
+    padding-left: 0%;
     font-size: 28px;
     text-align: left;
   }
@@ -943,6 +1195,12 @@
   .morelink {
     margin-bottom: 15px;
   }
+  .socialbutton {
+    margin-left: 451px;
+  }
+  .logo-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 479px) {
@@ -955,6 +1213,7 @@
   }
   .body {
     background-color: #aaa;
+    background-position: -268px -268%;
   }
   .leftone {
     position: static;
@@ -962,6 +1221,16 @@
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
+  }
+  .links {
+    font-size: 15px;
+  }
+  .links.morelink {
+    box-shadow: inset 0 -5px 0 0 #3dd0dc;
+    font-size: 15px;
+  }
+  .herofont {
+    margin-bottom: 0%;
   }
   .xavierrievra {
     padding-top: 55%;
@@ -982,6 +1251,10 @@
   .section.last {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .section.menu {
+    margin-top: 0%;
+    padding-top: 0%;
   }
   .aboutme {
     margin-top: 10%;
@@ -1011,6 +1284,10 @@
     color: #fff;
     line-height: 30px;
   }
+  .first {
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
   .div-block {
     display: block;
     margin-right: 5%;
@@ -1027,7 +1304,7 @@
   }
   .image-2 {
     margin-top: -22%;
-    margin-left: 89%;
+    margin-left: 92%;
   }
   .items._2 {
     margin-top: 10px;
@@ -1039,8 +1316,22 @@
   .items._3 {
     margin-top: 10px;
   }
+  .items._0 {
+    background-size: cover;
+  }
   .casetitle {
     margin-top: 14px;
+  }
+  .casecaption {
+    font-size: 15px;
+  }
+  .socialbutton {
+    margin-right: 19px;
+    margin-left: 228px;
+    padding-right: 0px;
+  }
+  .text-block-4 {
+    text-align: center;
   }
 }
 
