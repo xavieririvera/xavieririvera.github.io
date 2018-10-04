@@ -705,6 +705,7 @@
 }
 
 .items._2 {
+  display: block;
   padding-top: 43%;
   background-color: transparent;
   background-image: url('../images/Bites.png');
@@ -716,6 +717,7 @@
 }
 
 .items._1 {
+  display: block;
   padding-top: 43%;
   border-style: none;
   border-color: transparent;
@@ -727,6 +729,7 @@
 }
 
 .items._3 {
+  display: block;
   padding-top: 43%;
   background-color: transparent;
   background-image: url('../images/BeeckCenter.png');
@@ -735,6 +738,7 @@
 }
 
 .items._0 {
+  display: block;
   padding-top: 43%;
   background-image: url('../images/HanoverSite.png');
   background-position: 0px 0px;
@@ -1120,6 +1124,16 @@
   font-weight: 300;
   text-align: center;
   letter-spacing: 3px;
+}
+
+.projectcategories {
+  margin-top: 12%;
+  margin-right: 1%;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  font-family: Roboto, sans-serif;
+  color: #6b6b6b;
+  font-weight: 500;
 }
 
 html.w-mod-js *[data-ix="display-none"] {
