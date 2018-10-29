@@ -185,7 +185,7 @@
   border-bottom-width: 2px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -194,6 +194,10 @@
 .links.menulinks {
   color: #a5a5a5;
   font-weight: 400;
+}
+
+.links.morelink {
+  font-size: 16px;
 }
 
 .links.morelink.back {
@@ -740,9 +744,9 @@
 .items._0 {
   display: block;
   padding-top: 43%;
-  background-image: url('../images/HanoverSite.png');
+  background-image: url('../images/Hanover-Asset.png');
   background-position: 0px 0px;
-  background-size: 460px;
+  background-size: cover;
   background-attachment: scroll;
 }
 
@@ -804,9 +808,9 @@
   margin-top: 3%;
   background-color: transparent;
   box-shadow: inset 0 -7px 0 0 #fc0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .socialbutton {
@@ -877,7 +881,7 @@
 .casesubtitle {
   margin-top: 1%;
   font-family: 'Open Sans', sans-serif;
-  color: #fc0;
+  color: #494949;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -903,6 +907,7 @@
 }
 
 .casetext.top.abouttext {
+  margin-top: 3%;
   margin-bottom: 4%;
 }
 
@@ -924,6 +929,7 @@
 
 .caserolesubtitle {
   margin-top: 0%;
+  direction: ltr;
   font-family: 'Open Sans', sans-serif;
   color: #292929;
   font-size: 16px;
@@ -947,11 +953,12 @@
 
 .casetestsubtitle {
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
   font-size: 26px;
-  font-weight: 900;
+  line-height: 35px;
+  font-weight: 600;
 }
 
 .link {
@@ -1134,6 +1141,14 @@
   font-family: Roboto, sans-serif;
   color: #6b6b6b;
   font-weight: 500;
+}
+
+.text-block-6 {
+  margin-top: 30%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="display-none"] {
