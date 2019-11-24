@@ -1015,7 +1015,7 @@
 .caserole {
   margin-top: 0%;
   margin-bottom: 0%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Aeonik, sans-serif;
   color: #000;
   font-size: 14px;
   font-weight: 700;
@@ -1025,13 +1025,13 @@
 
 .caserole._2nd {
   margin-top: 7%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Aeonik, sans-serif;
 }
 
 .caserolesubtitle {
   margin-top: 0%;
   direction: ltr;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Aeonik, sans-serif;
   color: #292929;
   font-size: 16px;
   line-height: 24px;
@@ -1195,9 +1195,9 @@
 }
 
 .nav-link-3.hvr-pop.w--current {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Aeonik, sans-serif;
   color: #000;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -1978,11 +1978,11 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Aeonik, sans-serif;
   color: #000;
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
 }
 
 .casenavlink {
@@ -2175,7 +2175,8 @@
 
 .button-5-text {
   margin-left: 9px;
-  font-family: Roboto, sans-serif;
+  font-family: Aeonik, sans-serif;
+  font-weight: 900;
 }
 
 .button-5-link {
