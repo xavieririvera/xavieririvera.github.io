@@ -2710,7 +2710,7 @@ html.w-mod-js *[data-ix="display"] {
   transform: translate(0px, 0px);
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .section.menu {
     margin-top: 55%;
   }
@@ -2797,7 +2797,7 @@ html.w-mod-js *[data-ix="display"] {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .xavierrievra {
     padding-left: 3%;
     font-size: 28px;
@@ -2868,7 +2868,7 @@ html.w-mod-js *[data-ix="display"] {
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .title {
     padding-left: 5%;
   }
