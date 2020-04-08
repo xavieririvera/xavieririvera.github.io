@@ -229,6 +229,7 @@
 }
 
 .links.morelink {
+  color: #000;
   font-size: 16px;
 }
 
@@ -2697,6 +2698,12 @@
   font-size: 20px;
   font-style: italic;
   font-weight: 300;
+}
+
+.link-6 {
+  font-family: Aeonik, sans-serif;
+  color: #000;
+  text-decoration: none;
 }
 
 html.w-mod-js *[data-ix="display-none"] {
