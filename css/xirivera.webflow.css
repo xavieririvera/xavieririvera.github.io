@@ -2917,8 +2917,9 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 36px;
   }
   .herofont {
-    margin-top: 40%;
-    margin-bottom: -111%;
+    min-height: 100vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
   .xavierrievra {
     padding-top: 55%;
@@ -3126,6 +3127,7 @@ html.w-mod-js *[data-ix="display"] {
   .container-2 {
     position: relative;
     z-index: 10000;
+    margin-top: -10%;
     padding-top: 0%;
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
@@ -3342,6 +3344,17 @@ html.w-mod-js *[data-ix="display"] {
   }
   .mobileshowcase.card3 {
     margin-bottom: 0%;
+  }
+  .div-block-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .div-block-3.medium {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .project {
     overflow: hidden;
@@ -3602,7 +3615,7 @@ html.w-mod-js *[data-ix="display"] {
   .text-block-11 {
     max-width: 100%;
     min-width: 0%;
-    margin-top: -15%;
+    margin-top: 10%;
     padding-right: 21px;
     padding-left: 20px;
     font-size: 25px;
@@ -3620,6 +3633,21 @@ html.w-mod-js *[data-ix="display"] {
   }
   .text-block-14 {
     text-align: left;
+  }
+  .div-block-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
