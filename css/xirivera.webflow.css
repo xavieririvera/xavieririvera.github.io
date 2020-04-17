@@ -2918,7 +2918,7 @@ html.w-mod-js *[data-ix="display"] {
   }
   .herofont {
     min-height: 100vh;
-    margin-top: 0%;
+    margin-top: 10%;
     margin-bottom: 0%;
   }
   .xavierrievra {
@@ -3615,7 +3615,7 @@ html.w-mod-js *[data-ix="display"] {
   .text-block-11 {
     max-width: 100%;
     min-width: 0%;
-    margin-top: 10%;
+    margin-top: 16%;
     padding-right: 21px;
     padding-left: 20px;
     font-size: 25px;
