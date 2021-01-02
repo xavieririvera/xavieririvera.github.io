@@ -1132,7 +1132,7 @@
   top: 0px;
   right: 0px;
   z-index: 10000000;
-  overflow: scroll;
+  overflow: visible;
   margin-bottom: 0%;
   padding-top: 15px;
   padding-right: 6%;
@@ -2725,33 +2725,43 @@ html.w-mod-js *[data-ix="display"] {
   .section.menu {
     margin-top: 55%;
   }
+
   .first {
     margin-bottom: 40%;
   }
+
   .image-2 {
     margin-left: 300px;
   }
+
   .items._1 {
     background-size: cover;
   }
+
   .items._0 {
     background-size: cover;
   }
+
   .socialbutton {
     margin-left: 279px;
   }
+
   .nav-menu-2 {
     background-color: #fcfcfc;
   }
+
   .showcase.jpmc {
     height: 225px;
   }
+
   .showcase.wbg {
     height: 225px;
   }
+
   .showcase.hanover {
     height: 225px;
   }
+
   .showcase.dbxblue {
     height: 225px;
     -webkit-box-orient: vertical;
@@ -2760,6 +2770,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .project {
     overflow: hidden;
     min-height: 230px;
@@ -2779,6 +2790,7 @@ html.w-mod-js *[data-ix="display"] {
     align-items: center;
     background-color: #fff;
   }
+
   .projectsmask {
     max-height: 230px;
     -webkit-align-self: center;
@@ -2786,14 +2798,17 @@ html.w-mod-js *[data-ix="display"] {
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   .projectimage {
     display: block;
     margin-left: 0px;
     padding-top: 0px;
   }
+
   .logo {
     width: 130px;
   }
+
   .latest.dbxblue {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2801,6 +2816,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .text-block-11 {
     margin-top: 13%;
     font-size: 35px;
@@ -2815,63 +2831,79 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 38px;
     text-align: left;
   }
+
   .xavier {
     text-align: left;
   }
+
   .section {
     padding-right: 9px;
     padding-left: 9px;
   }
+
   .aboutme {
     font-size: 19px;
     line-height: 29px;
     text-align: left;
   }
+
   .aboutmetitle.aboutmetitle2 {
     padding-left: 0%;
     font-size: 28px;
     text-align: left;
   }
+
   .beeckimages.flier {
     margin-top: 6%;
     margin-bottom: 6%;
   }
+
   .div-block {
     margin-right: 2%;
     margin-left: 2%;
   }
+
   .image-2 {
     margin-left: 469px;
   }
+
   .morelink {
     margin-bottom: 15px;
   }
+
   .socialbutton {
     margin-left: 451px;
   }
+
   .logo-text {
     text-align: center;
   }
+
   .max-width {
     padding-right: 10%;
     padding-left: 10%;
   }
+
   .arrow {
     font-size: 25px;
   }
+
   .slide {
     padding-top: 30px;
     padding-bottom: 50px;
   }
+
   .articlepromo {
     margin-right: 2%;
     margin-left: 2%;
   }
+
   .thelatest {
     font-size: 19px;
     line-height: 29px;
     text-align: left;
   }
+
   .thelatestbody {
     font-size: 19px;
     line-height: 29px;
@@ -2883,16 +2915,19 @@ html.w-mod-js *[data-ix="display"] {
   .title {
     padding-left: 5%;
   }
+
   .bio {
     padding-right: 5%;
     padding-left: 5%;
   }
+
   .body {
     overflow: visible;
     background-color: #1c65f5;
     background-position: 0% 50%;
     background-size: 250%;
   }
+
   .leftone {
     position: static;
     display: block;
@@ -2900,31 +2935,38 @@ html.w-mod-js *[data-ix="display"] {
     margin-left: auto;
     padding-right: 0px;
   }
+
   .links {
     font-size: 15px;
   }
+
   .links.morelink {
     box-shadow: inset 0 -5px 0 0 #3dd0dc;
     font-size: 15px;
   }
+
   .footer {
     position: relative;
   }
+
   .footer.casefooter {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
+
   .message {
     font-size: 22px;
     line-height: 36px;
   }
+
   .herofont {
     min-height: 100vh;
     margin-top: 10%;
     margin-bottom: 0%;
   }
+
   .xavierrievra {
     padding-top: 55%;
     padding-right: 5%;
@@ -2933,22 +2975,27 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 38px;
     text-align: left;
   }
+
   .xavier {
     color: #fff;
     text-align: left;
   }
+
   .section {
     padding-right: 9px;
     padding-left: 9px;
   }
+
   .section.last {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .section.menu {
     margin-top: 0%;
     padding-top: 0%;
   }
+
   .section.section2 {
     position: relative;
     width: 100%;
@@ -2956,6 +3003,7 @@ html.w-mod-js *[data-ix="display"] {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
   }
+
   .aboutme {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -2969,6 +3017,7 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 29px;
     text-align: left;
   }
+
   .aboutmetitle {
     margin-top: 30%;
     margin-left: 10%;
@@ -2979,6 +3028,7 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 8px;
     font-weight: 300;
   }
+
   .aboutmetitle.aboutmetitle2 {
     margin-top: 0%;
     margin-left: 0%;
@@ -2991,14 +3041,17 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 46px;
     text-align: left;
   }
+
   .text-span {
     color: #fff;
     line-height: 30px;
   }
+
   .first {
     margin-top: 0%;
     margin-bottom: 25%;
   }
+
   .div-block {
     position: fixed;
     left: 0%;
@@ -3028,42 +3081,53 @@ html.w-mod-js *[data-ix="display"] {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+
   .column-2 {
     padding-right: 0px;
   }
+
   .image {
     display: block;
     margin-top: 0px;
     margin-left: 0px;
   }
+
   .image-2 {
     margin-top: -22%;
     margin-left: 92%;
   }
+
   .items._2 {
     margin-top: 10px;
   }
+
   .items._1 {
     margin-top: 10px;
     background-size: cover;
   }
+
   .items._3 {
     margin-top: 10px;
   }
+
   .items._0 {
     background-size: cover;
   }
+
   .casetitle {
     margin-top: 14px;
   }
+
   .casecaption {
     font-size: 15px;
   }
+
   .socialbutton {
     margin-right: 19px;
     margin-left: 228px;
     padding-right: 0px;
   }
+
   .casepage {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3089,6 +3153,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex: 1;
     flex: 1;
   }
+
   .caserole {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3115,9 +3180,11 @@ html.w-mod-js *[data-ix="display"] {
     align-content: flex-start;
     color: #000;
   }
+
   .text-block-4 {
     text-align: center;
   }
+
   .navbar-1 {
     left: 0%;
     top: 0%;
@@ -3125,9 +3192,11 @@ html.w-mod-js *[data-ix="display"] {
     bottom: auto;
     overflow: visible;
   }
+
   .logo-text {
     text-align: left;
   }
+
   .container-2 {
     position: relative;
     z-index: 10000;
@@ -3138,6 +3207,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-grid-row-align: stretch;
     align-self: stretch;
   }
+
   .casebody {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3155,6 +3225,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-line-pack: stretch;
     align-content: stretch;
   }
+
   .sectiontitle {
     margin-top: 20%;
     margin-bottom: 3%;
@@ -3173,9 +3244,11 @@ html.w-mod-js *[data-ix="display"] {
     font-weight: 700;
     text-align: center;
   }
+
   .password {
     margin-top: 60%;
   }
+
   .showcase {
     height: 200px;
     -webkit-box-pack: center;
@@ -3190,12 +3263,14 @@ html.w-mod-js *[data-ix="display"] {
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
   }
+
   .showcase:hover {
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.04);
     -ms-transform: scale(1.04);
     transform: scale(1.04);
   }
+
   .showcase.color1 {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -3211,6 +3286,7 @@ html.w-mod-js *[data-ix="display"] {
     align-items: flex-start;
     background-color: #000;
   }
+
   .showcase.color2 {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -3221,20 +3297,25 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+
   .showcase.color3 {
     margin-top: 0%;
     margin-bottom: 0%;
     background-color: #005744;
   }
+
   .showcase.color4 {
     margin-top: 0%;
   }
+
   .showcase.color5 {
     margin-top: 0%;
   }
+
   .showcase.color6 {
     margin-top: 0%;
   }
+
   .showcase.color0 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3252,18 +3333,23 @@ html.w-mod-js *[data-ix="display"] {
     flex-wrap: nowrap;
     background-color: #0f277c;
   }
+
   .showcase.dropbox {
     background-color: #0d2481;
   }
+
   .showcase.jpmc {
     background-color: #000;
   }
+
   .showcase.hanover {
     background-color: #005744;
   }
+
   .showcase.dbxblue {
     height: 200px;
   }
+
   .columns {
     margin-top: 0%;
     -webkit-box-orient: vertical;
@@ -3282,10 +3368,12 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-line-pack: start;
     align-content: flex-start;
   }
+
   .showcasetitle {
     padding-bottom: 80px;
     font-size: 30px;
   }
+
   .enterarrow {
     position: absolute;
     left: auto;
@@ -3299,6 +3387,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-order: 0;
     order: 0;
   }
+
   .enterarrow.top {
     margin: 0% 12% 26% 0%;
     -webkit-box-pack: start;
@@ -3310,19 +3399,23 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .enterarrow.top.casebutton {
     margin-right: 30%;
     margin-left: 30%;
   }
+
   .posttitle {
     margin-bottom: 10%;
     line-height: 32px;
   }
+
   .text-block-8 {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
   }
+
   .sectionsubtitle {
     margin-bottom: 7%;
     padding-top: 0%;
@@ -3332,27 +3425,34 @@ html.w-mod-js *[data-ix="display"] {
     justify-content: center;
     line-height: 25px;
   }
+
   .icon-2 {
     color: #000;
   }
+
   .link-4 {
     font-size: 26px;
     line-height: 5px;
   }
+
   .link-5 {
     font-size: 26px;
     line-height: 5px;
   }
+
   .mobileshowcase {
     margin-bottom: 0%;
   }
+
   .mobileshowcase.card3 {
     margin-bottom: 0%;
   }
+
   .div-block-3 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
   .div-block-3.medium {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3360,6 +3460,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .project {
     overflow: hidden;
     min-height: 100%;
@@ -3378,6 +3479,7 @@ html.w-mod-js *[data-ix="display"] {
     align-items: center;
     background-color: #fff;
   }
+
   .image-12 {
     padding-top: 0px;
     -webkit-box-flex: 0;
@@ -3385,6 +3487,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
   .caseherotext {
     width: 100%;
     margin-right: 35px;
@@ -3403,28 +3506,34 @@ html.w-mod-js *[data-ix="display"] {
     font-size: 20px;
     line-height: 28px;
   }
+
   .button-6 {
     display: block;
     width: 100%;
   }
+
   .max-width {
     padding-right: 0%;
     padding-left: 0%;
   }
+
   .arrow {
     display: none;
   }
+
   .projectsmask {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   .projectsmask.dropboxgif {
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
   }
+
   .projectimage {
     max-height: 100%;
     min-height: 100%;
@@ -3436,6 +3545,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-grid-row-align: auto;
     align-self: auto;
   }
+
   .logo {
     width: 175px;
     -webkit-align-self: center;
@@ -3447,9 +3557,11 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
   .card {
     margin-bottom: 5%;
   }
+
   .image-21 {
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
@@ -3459,6 +3571,7 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex: 10 auto;
     flex: 10 auto;
   }
+
   .homeimage {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -3469,13 +3582,16 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
   .section-3 {
     position: relative;
   }
+
   .scrolldownanimation {
     width: 100px;
     margin-top: 1%;
   }
+
   .latest {
     height: 200px;
     -webkit-box-pack: center;
@@ -3490,12 +3606,14 @@ html.w-mod-js *[data-ix="display"] {
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
   }
+
   .latest:hover {
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.04);
     -ms-transform: scale(1.04);
     transform: scale(1.04);
   }
+
   .latest.color1 {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -3511,6 +3629,7 @@ html.w-mod-js *[data-ix="display"] {
     align-items: flex-start;
     background-color: #000;
   }
+
   .latest.color2 {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -3521,20 +3640,25 @@ html.w-mod-js *[data-ix="display"] {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+
   .latest.color3 {
     margin-top: 0%;
     margin-bottom: 0%;
     background-color: #005744;
   }
+
   .latest.color4 {
     margin-top: 0%;
   }
+
   .latest.color5 {
     margin-top: 0%;
   }
+
   .latest.color6 {
     margin-top: 0%;
   }
+
   .latest.color0 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3552,15 +3676,19 @@ html.w-mod-js *[data-ix="display"] {
     flex-wrap: nowrap;
     background-color: #0f277c;
   }
+
   .latest.dropbox {
     background-color: #0d2481;
   }
+
   .latest.jpmc {
     background-color: #000;
   }
+
   .latest.hanover {
     background-color: #005744;
   }
+
   .articlepromo {
     position: fixed;
     left: 0%;
@@ -3590,6 +3718,7 @@ html.w-mod-js *[data-ix="display"] {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+
   .thelatest {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -3603,6 +3732,7 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 29px;
     text-align: left;
   }
+
   .thelatestbody {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -3616,6 +3746,7 @@ html.w-mod-js *[data-ix="display"] {
     line-height: 29px;
     text-align: left;
   }
+
   .text-block-11 {
     max-width: 100%;
     min-width: 0%;
@@ -3625,19 +3756,23 @@ html.w-mod-js *[data-ix="display"] {
     font-size: 25px;
     line-height: 30px;
   }
+
   .update {
     width: 250px;
     height: 50px;
     margin-right: 6%;
     padding-right: 0px;
   }
+
   .new {
     width: 70px;
     height: 30px;
   }
+
   .text-block-14 {
     text-align: left;
   }
+
   .div-block-5 {
     display: -webkit-box;
     display: -webkit-flex;
