@@ -1863,6 +1863,10 @@
   background-color: #000;
 }
 
+.div-block-3.contact {
+  background-color: #000;
+}
+
 .text-block-9 {
   display: block;
   padding-left: 10px;
@@ -2710,6 +2714,15 @@
   text-decoration: none;
 }
 
+.image-8-copy {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.image-8-copy.linkedinlogo {
+  background-color: transparent;
+}
+
 html.w-mod-js *[data-ix="display-none"] {
   display: none;
 }
@@ -3454,6 +3467,14 @@ html.w-mod-js *[data-ix="display"] {
   }
 
   .div-block-3.medium {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .div-block-3.contact {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
